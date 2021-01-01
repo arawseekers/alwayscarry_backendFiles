@@ -1,0 +1,19 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Always Carry A Book!"
+ignoreErrors = ["error-remote-getjson"]
+
+[permalinks]
+	books = "/:filename/"
+
+[params]
+	homeText = "(A)typical Experiences via Photosynthesis"
+
+[menu]
+	[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+	[[menu.main]]
+
+
