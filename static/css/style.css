@@ -86,12 +86,12 @@ pre > code {
 }
 
 a {
-		color: #427aa1;
+		color: #ee806e;
 		text-decoration: none;
 }
 
 a:hover {
-		color: #949ba0;
+		color: #7bb5a6;
 		text-decoration: underline;
 }
 
@@ -119,3 +119,19 @@ footer {
 .ftext {
 	font-family: sans-serif;
 }
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {background-color: #629084}
