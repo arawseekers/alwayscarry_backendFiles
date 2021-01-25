@@ -128,3 +128,11 @@ footer {
 }
 
 .button:hover {background-color: #629084}
+
+.search-input {
+	border-width: 1px;
+	border-color: #565c65;
+	border-style: solid;
+	height: 1.5rem;
+	width: 100%;
+}

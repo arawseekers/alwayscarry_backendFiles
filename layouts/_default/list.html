@@ -4,14 +4,14 @@
 
 {{ if site.Params.search }}
 <input
-  class="usa-input"
+  class="search-input"
   id="search"
   type="text"
   placeholder="Search by title"
   aria-label="Search by title"
 />
 {{ end }}
-<p class="ftext" id="list-count">Count: {{ len .Pages }}</p>
+<p class="ftext" id="list-count">Total: {{ len .Pages }}</p>
 
 <ul id="list">
 	{{ range .Pages.ByPublishDate.Reverse }}
