@@ -7,7 +7,8 @@ ignoreErrors = ["error-remote-getjson"]
 	books = "/:filename/"
 
 [params]
-	homeText = "(A)typical Experiences via Photosynthesis"
+	homeText = "Life is lighter when you have one on you"
+	search = "true"
 
 [menu]
 	[[menu.main]]

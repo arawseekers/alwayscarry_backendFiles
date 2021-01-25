@@ -1,26 +1,4 @@
-{{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-
-{{ if site.Params.search }}
-<input
-  class="usa-input"
-  id="search"
-  type="text"
-  placeholder="Search by title"
-  aria-label="Search by title"
-/>
-{{ end }}
-<p class="ftext" id="list-count">Count: {{ len .Pages }}</p>
-
-<ul id="list">
-	{{ range .Pages.ByPublishDate.Reverse }}
-	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-	{{ end }}
-</ul>
-
-<script>
-	(function () {
+(function () {
   function updateCount(count) {
     var listCount = document.getElementById("list-count");
     listCount.innerText = "Count: " + count;
@@ -49,5 +27,3 @@
     search.addEventListener("keyup", onEvent);
   }
 })();
-</script>
-{{ end }}
