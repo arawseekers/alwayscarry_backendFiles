@@ -37,7 +37,7 @@ If you're from these areas, you have the option to have your orders be delivered
 We will use either **Grab Express, Angkas, or Lalamove**, whichever is available and cheapest. 
 
 ### Nationwide
-We will use the services of known couriers like **LBC, J&T, JRS Express**, etc, whichever is available and cheapest.
+We will use **[LBC](https://www.lbcexpress.com/)**'s services.
 
 We plan on "dropping" all the confirmed orders on the courier every Wednesday.
 
