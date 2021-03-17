@@ -8,18 +8,12 @@ body {
 	color: #000;
 }
 
-main {
-    margin-top: 1em;
-    margin-bottom: 1.25em;
-}
-
+main { margin-top: 1em; margin-bottom: 1.25em}
 img {
 	max-width:100%;
 	margin-left: auto;
 	margin-right: auto;
-	height:auto;
-}
-
+	height:auto }
 figure, figcaption {
 	font-family: sans-serif;
 	font-size: smaller;
@@ -32,69 +26,22 @@ h1,h2,h3,h4 {
 	font-family: sans-serif;
 	line-height: 1.2;
 }
-
-h1 {
-	text-align: center;
-	font-size: 3em;
-}
-
-h2 {
-	font-size: 2em;
-}
-
-h3 {
-	font-size: 1.5em;
-}
-
+h1 { text-align: center;font-size: 3em }
+h2 {font-size: 2em}
+h3 {font-size: 1.5em}
 p {
 	text-align: justify;
 	line-height: 1.6;
-	font-size: 1.15em;
-}
-
+	font-size: 1.15em}
 nav {
 	font-size: 1.2em;
 	text-align: center;
-	word-spacing: 0.4em;
-}
+	word-spacing: 0.4em}
 
-@media print{
-		body{
-				max-width: none
-		}
-}
-
-blockquote{
-		margin: 2 2 1rem;
-		font-size: 1.15em;
-		color: #fff;
-}
-
-code,kbd,pre,samp{
-	font-family:monospace;
-	color: #da9b86;
-}
-
-pre{
-	overflow: auto;
-}
-
-pre > code {
-	display: block;
-	padding: 1rem;
-	word-wrap: normal;
-}
-
-a {
-		color: #ee806e;
-		text-decoration: none;
-}
-
-a:hover {
-		color: #7bb5a6;
-		text-decoration: underline;
-}
-
+@media print{ body{max-width: none} }
+code,kbd,pre,samp{font-family:monospace;color: #da9b86}
+a {color: #ee806e;text-decoration: none}
+a:hover {color: #7bb5a6;text-decoration: underline}
 .banner {
     background: #427aa1;
     color: #ebf2fa;
@@ -108,10 +55,7 @@ footer {
 	padding: 0.6em;
 	text-align: center;
 }
-
-.ftext {
-	font-size: smaller;
-}
+.ftext {font-size: smaller}
 .button {
   background-color: #f4511e;
   border: none;
@@ -126,9 +70,7 @@ footer {
   text-decoration: none;
   cursor: pointer;
 }
-
 .button:hover {background-color: #629084}
-
 .search-input {
 	border-width: 1px;
 	border-color: #565c65;
@@ -136,12 +78,10 @@ footer {
 	height: 1.5rem;
 	width: 100%;
 }
-
 .help-banner {
 	border: 2px solid #279800;
 	border-radius: 10px 35px;
 	background-color: #f0fff0;
 	color: #279800;
 	padding: 1em;
-
 }
