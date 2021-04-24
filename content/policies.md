@@ -9,12 +9,17 @@ We are a small team with a big passion to share our love of books.
 Please bear with us as we process your orders.
 
 ## How to Order
-Once you've chosen something, take note of the book code and be sure to reserve it by filling out this **[Google Form](https://forms.gle/yebh3XHyuUqe7xG8A)**
 
-You will receive an invoice including the details of your order, confirming that it has been reserved under your name.
+### Books
+Take note of the code and be sure to reserve it by filling out this **[Google Form](https://forms.gle/yebh3XHyuUqe7xG8A)**
 
-We will then reserve it in your name for the next 24 hours, during which we await your payment.
+### Homey Feels
+Process is simpler:
+just indicate the items and the quantity of each in the DM you'll send us.
 
+In both cases above, you will receive an invoice including the details of your order. 
+
+We will then reserve the goods in your name for the next 24 hours, during which we await your payment.
 
 ## Payment Methods
 

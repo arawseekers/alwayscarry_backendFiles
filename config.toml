@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Always Carry A Book!"
+title = "Always Carry!"
 ignoreErrors = ["error-remote-getjson"]
 
 [permalinks]
@@ -8,13 +8,12 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params]
 	homeText = "Life is lighter when you have one on you"
-	search = "true"
 
 [menu]
 	[[menu.main]]
-	name = "Home"
-	url = "/"
-	weight = 1
+		name = "Home"
+		url = "/"
+		weight = 1
 	[[menu.main]]
-
-
+		name = "Contact"
+		url = "/contact"

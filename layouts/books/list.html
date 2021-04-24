@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<img src="/images/acab-logo.png" alt="Always Carry A Book!">
+
+<p><em>Follow the Books!</em><br>
+<strong>IG</strong>: <a href="https://instagram.com/alwayscarry.abook">@alwayscarry.abook</a> | <strong>FB</strong>: <a href="https://facebook.com/A.C.A.Books">@A.C.A.Books</a><br>
+</p>
+<h2>List of available books</h2>
+<p class="ftext" id="list-count">Total: {{ len .Pages }}</p>
+<ul id="list">
+	{{ range .Pages.ByPublishDate.Reverse }}
+	<li class="bookList"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+
+{{ end }}
